@@ -1,0 +1,126 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link{
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #ffd700 !important;
+}
+
+/* Banner */
+#inicio{
+    background: linear-gradient(to right, #2e8b57, #3cb371);
+    color: white;
+    padding: 100px 20px;
+}
+
+#inicio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#inicio p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn-success{
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-success:hover{
+    transform: scale(1.05);
+}
+
+/* Títulos */
+h2{
+    color: #2e8b57;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Cards */
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card-body{
+    text-align: center;
+    padding: 30px;
+}
+
+/* Galeria */
+#galeria img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+#galeria img:hover{
+    transform: scale(1.05);
+}
+
+/* Formulário */
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer{
+    margin-top: 40px;
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsivo */
+@media(max-width:768px){
+
+    #inicio h1{
+        font-size: 35px;
+    }
+
+    #inicio p{
+        font-size: 18px;
+    }
+
+}
